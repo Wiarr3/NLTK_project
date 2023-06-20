@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block title %}Logout{% endblock %}
+{% block content %}
+    {% if islogged == True %}
+    <h1>Successfully logged out</h1>
+    {% else %}
+    <h1>You are already logged out</h1>
+    {% endif %}
+{% endblock %}

@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f30b0b;
+    color: #f30b0b;
+  }
+
+.previous {
+    color: #f30b0b;
+    background-color: #f30b0b;
+    border-color: black;
+    width: 300px;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+h1 {
+    text-align: center;
+    margin: 0 auto;
+}
+
+table {
+    background-color: #96955f;
+}
+
+.section {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: center;
+}
